@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratice 9-4 Events Aplenty</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      :root {
+        --grid-cols: 1;
+        --grid-rows: 1;
+      }
+
+      .container {
+        display: grid;
+        padding: 2rem;
+        grid-gap: 1em;
+        grid-template-rows: repeat(var(--grid-rows), 1fr);
+        grid-template-columns: repeat(var(--grid-cols), 1fr);
+        background-color: azure;
+      }
+
+      .grid-item {
+        padding: 1em;
+        border: 1px solid #000;
+        background-color: white;
+        text-align: center;
+      }
+    </style>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1 style="text-align: center">What for a cooltainer!</h1>
+      <div class="container"></div>
+    </main>
+  </body>
+</html>
