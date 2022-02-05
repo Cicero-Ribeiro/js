@@ -1,6 +1,11 @@
 /**
  * Events aplenty.
  * @link https://developer.mozilla.org/en-US/docs/Web/Events
+ *
+ * My start with JS
+ * because all history has a begin
+ *
+ * CR 3rd Feb, 2022
  */
 
 const makeTheGrid = (rows, cols) => {
